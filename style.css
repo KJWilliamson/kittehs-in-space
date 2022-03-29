@@ -1,0 +1,46 @@
+/*******************************************/
+body {
+    margin-top: 200px;
+    height: 100%;
+    /* https://gradients.shecodes.io/gradients/174 */
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+    background-repeat: no-repeat;
+    background-size: 1488px;
+}
+
+
+h1,
+h2,
+form {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: pink;
+  color: white;
+}
+
+h2 {
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    body {
+        
+    background-size: contain;
+    }
+}
+
